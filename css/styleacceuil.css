@@ -1,7 +1,6 @@
 header{
     display: flex;
     border: solid;
-    background-color: azure;
     box-shadow: 1px 1px 20px black;
     width: 100vw;
     background-color: rgba(0, 0, 0, 0.986);
@@ -11,8 +10,6 @@ header{
 body {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgba(102, 101, 101, 0.986);
-    color: black;
 }
 .logo{
     width: 100px;
