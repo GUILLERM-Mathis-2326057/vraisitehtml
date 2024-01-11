@@ -1,6 +1,12 @@
-const modeButton = document.getElementById("mode-button");
+let checkbox = document.querySelector("#darkmode-toggle");
 
-    modeButton.addEventListener("click", function() {
-      // Active le mode sombre
-      document.body.classList.toggle("mode-dark");
-    });
+checkbox.addEventListener("change",(elem) => {
+  console.log(elem.checked);
+  let baliseStyle = document.querySelector("#colorCssFile");
+
+  if (balise.style.getAttribute("href") === "light.css"){
+    baliseStyle;setAttribute("href","dark.css");
+    return
+  }
+  baliseStyle.setAttribute("href","light.css");
+});
