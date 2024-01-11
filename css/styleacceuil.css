@@ -60,9 +60,7 @@ input:checked + label:after {
 label, label:after {
     transition: 0.3s
 }
-.categorie {
-    color:black;
-}
+
 p {
     font-size: x-large;
 }
