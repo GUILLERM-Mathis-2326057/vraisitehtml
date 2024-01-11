@@ -16,22 +16,6 @@ header{
 
 
 
-.scroll-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    display: none; /* Hide the button initially */
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    cursor: pointer;
-  }
-  
-  .scroll-top:hover {
-    background-color: #0056b3;
-  }
-
-
 
 body {
     display: flex;
@@ -61,7 +45,7 @@ body {
     background-color: rgb(149, 151, 179);
     box-shadow: 1px 1px 20px rgb(0, 0, 0);
     margin-left: 10px;
-    height: 170px;
+    height: 200px;
     width: 250px;  
     line-height: 1.5;
 }
