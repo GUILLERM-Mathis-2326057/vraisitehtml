@@ -1,0 +1,42 @@
+body{
+	background-image: url(../images/espace.png);
+  background-size: cover;
+}
+header{
+    display: flex;
+}
+
+.titre{
+	color: whitesmoke;
+	text-align: center;
+	position: sticky;
+	padding: 30px;
+    font-size: 50px;
+}
+
+div.boite{
+    background: linear-gradient(120deg,rgb(51, 12, 143),rgb(142, 194, 241));
+    width: 450px;
+    height: 200px;
+    position: sticky;
+    left: 40%;
+    top: 10%;
+    text-align: center;
+}
+
+.menu{
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 1.5;
+    color:antiquewhite;
+    width: 30%;
+}
+.titremenu {
+    font-size: 30px;
+}
+.soustitremenu{
+    font-size: large;
+    color: antiquewhite;
+    text-decoration: none;
+    font-family: "Arial";
+}
