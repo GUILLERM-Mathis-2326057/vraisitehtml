@@ -22,14 +22,27 @@ body {
     align-content:center;
 }
 
+i{
+    font-size: 40px;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 5px;
+    transform: translate(-50%, -50%);
+}
+
 .menu{
     text-align: left;
     margin-top: 50px;
     letter-spacing: 1px;
-    box-shadow: 1px 1px 20px red;
+    background-color: var(--color-three2);
+    box-shadow: 1px 1px 20px rgb(0, 0, 0);
     margin-left: 10px;
-    height: 170px;
+    height: 200px;
+    width: 250px;  
     line-height: 1.5;
+    align-self: auto;
+    align-content: flex-start;
 }
 
 .titremenu {
