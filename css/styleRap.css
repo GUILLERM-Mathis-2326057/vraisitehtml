@@ -28,8 +28,6 @@ i{
 body {
     display: flex;
     flex-wrap: wrap;
-    background-color: var(--color-three);
-    color: var(--text-color);
 }
 .logo{
     width: 100px;
@@ -39,7 +37,6 @@ body {
     display: flex;
     align-content:center;
     -webkit-text-stroke: #ffffff;
-    color: var(--primary-color);
     margin-top: 30px;
     font-size: 40px;
     text-indent: 40%;
@@ -51,7 +48,6 @@ body {
     text-align: left;
     margin-top: 50px;
     letter-spacing: 1px;
-    background-color: var(--color-three2);
     box-shadow: 1px 1px 20px rgb(0, 0, 0);
     margin-left: 10px;
     height: 200px;
@@ -75,19 +71,16 @@ body {
 }
 
 .titremenu {
-    color: var(--text-color);
     font-size: 30px;
 }
 
 .soustitremenu{
-    color: var(--text-color);
     text-decoration: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
 }
 
 .main{
-    color: var(--text-color);
     margin-left: 20px;
     width: 70%;
     display: flex;
