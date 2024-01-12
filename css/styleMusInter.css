@@ -10,7 +10,7 @@ header{
 body {
     display: flex;
     flex-wrap: wrap;
-    background-color: rgba(102, 101, 101, 0.986);
+    background-color: rgba(233, 233, 233, 0.986);
     color: black;
 }
 .logo{
