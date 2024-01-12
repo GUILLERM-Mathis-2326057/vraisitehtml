@@ -1,13 +1,18 @@
-const buttonThemeChanger = document.querySelector('#themeChanger');
-console.log(buttonThemeChanger);
+const toggle = document.getElementById('icon');
+const body = document.querySelector('body');
 
-buttonThemeChanger.addEventListener('click', function() {
-  const theme = document.querySelector('#theme');
-  if (theme.href.includes('light')) {
-    theme.href = theme.href.replace('light', 'dark');
+toggle.addEventListener('click', function(){
+    this.classList.toggle('bi-moon');
 
-    return ;
-  }
 
-  theme.href = theme.href.replace('dark', 'light');
+
+if(this.classList.toggle('bi-brightness-high-fill')){
+  body.style.background = 'white';
+  body.style.color = 'black';
+  body.style.transition = '0.5s';
+}else{
+  body.style.background = 'black';
+  body.style.color = 'white';
+  body.style.transition = '0.5s';
+}
 });
