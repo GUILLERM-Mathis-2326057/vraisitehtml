@@ -9,6 +9,10 @@
     <link rel="icon" href="./images/favicon.ico">
 </head>
 <body>
+    <link id='theme' rel="stylesheet" href="../css/lightStyle.css">
+    <button 
+        id='themeChanger' type='button'>changer le thème
+    </button>
 <header>
     <img src="./images/logo.png" alt="logo" class="logo">   
     <a>
@@ -117,12 +121,7 @@
     
 </main>
    
-<script>
-    var icon = document.getElementById("icon");
-    icon.onclick = function(){
-        document.body.clasList.toggle("darkmode");
-    }
-</script>
+<script src='./themeChanger.js' defer></script>
 
 </body>
 </html>
