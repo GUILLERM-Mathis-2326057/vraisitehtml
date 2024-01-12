@@ -14,19 +14,14 @@ header{
     cursor: pointer;
 }
 
-:root{
-    --primary-color: #ffffff;
-    --text-color: #000000;
-    --color-three: #cfcfff;
-    --color-three2:rgb(149, 151, 179)
 
-}
-
-.darkmode{
-    --primary-color: #ffffff;
-    --text-color: #ffffff;
-    --color-three: #37373b;
-    --color-three2:rgb(121, 121, 121);
+i{
+    font-size: 40px;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 220px;
+    margin-top: 5px;
+    transform: translate(-50%, -50%);
 }
 
 
